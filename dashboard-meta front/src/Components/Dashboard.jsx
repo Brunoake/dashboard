@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import { fetchMetrics } from '../Api/MetaApi';
+import { fetchMetrics } from '../Api/MetaApi'
 
 const Dashboard = () => {
   const [metrics, setMetrics] = useState([]); // Inicializa o estado como um array vazio
